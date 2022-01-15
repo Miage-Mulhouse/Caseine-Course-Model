@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.caseine</groupId>
+        <artifactId>caseine.vpl.parent</artifactId>
+        <!-- preferably choose the most recent version -->
+        <version>0.0.51</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>sample-course</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <CASEINE_URL>https://moodle.caseine.org/webservice/rest/server.php</CASEINE_URL>
+        <CASEINE_TOKEN>${user.token}</CASEINE_TOKEN>
+    </properties>
+
+    <modules>
+        <module>SAMPLE_EXERCICE</module>
+    </modules>
+    <name>Sample Course (e.g. Cours Java)</name>
+</project>
