@@ -4,8 +4,8 @@
     <parent>
         <groupId>org.caseine</groupId>
         <artifactId>caseine.vpl.parent</artifactId>
-        <!-- preferably choose the most recent version -->
-        <version>0.0.51</version>
+        <!-- please choose the most recent version available here : https://mvnrepository.com/artifact/org.caseine/caseine.vpl.tools.plugin -->
+        <version>0.0.64</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>sample-course</artifactId>
